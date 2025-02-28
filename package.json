@@ -1,0 +1,63 @@
+{
+  "name": "remix-netlify-template",
+  "private": true,
+  "sideEffects": false,
+  "type": "module",
+  "scripts": {
+    "build": "remix vite:build",
+    "dev": "remix vite:dev",
+    "lint": "eslint --ignore-path .gitignore --cache --cache-location ./node_modules/.cache/eslint .",
+    "start": "netlify serve"
+  },
+  "dependencies": {
+    "@netlify/functions": "^2.6.0",
+    "@netlify/remix-adapter": "^2.3.1",
+    "@remix-run/node": "^2.15.2",
+    "@remix-run/react": "^2.15.2",
+    "@remix-run/serve": "^2.15.2",
+    "framer-motion": "11.0.5",
+    "isbot": "^4.1.0",
+    "miniflare": "^3.20231030.4",
+    "resend": "^4.0.1",
+    "three": "^0.161.0",
+    "three-stdlib": "^2.29.4",
+    "@csstools/postcss-global-data": "^2.1.1",
+    "postcss": "^8.4.33",
+    "postcss-custom-media": "^10.0.2"
+  },
+  "devDependencies": {
+    "@csstools/postcss-global-data": "^2.1.1",
+    "@mapbox/rehype-prism": "^0.9.0",
+    "@mdx-js/rollup": "^3.0.1",
+    "@remix-run/dev": "^2.15.2",
+    "@storybook/addon-a11y": "^7.6.17",
+    "@storybook/addon-essentials": "^7.6.17",
+    "@storybook/addon-interactions": "^7.6.17",
+    "@storybook/addon-links": "^7.6.17",
+    "@storybook/blocks": "^7.6.17",
+    "@storybook/react": "^7.6.17",
+    "@storybook/react-vite": "^7.6.17",
+    "@storybook/test": "^7.6.17",
+    "eslint": "^8.38.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-import": "^2.28.1",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-storybook": "^0.8.0",
+    "node-fetch": "^3.3.2",
+    "postcss": "^8.4.33",
+    "postcss-custom-media": "^10.0.2",
+    "prop-types": "^15.8.1",
+    "remark-frontmatter": "^5.0.0",
+    "remark-mdx-frontmatter": "^4.0.0",
+    "serve": "^14.2.4",
+    "storybook": "^7.6.17",
+    "typescript": "^5.1.6",
+    "vite": "^5.4.8",
+    "vite-jsconfig-paths": "^2.0.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
